@@ -47,23 +47,19 @@ hr.hr{
     margin: 0 auto;
 }
 
-.title{
-    //font-size: rfs-value(20px);
-    //font-size: rfs-fluid-value(6rem);
-}
+//
+//.scroller{
+//    &-waper{
+//
+//    }
+//    &-content{
+//        transition: all 0.04s;
+//        -webkit-transition: all 0.04s;
+//    }
+//    @extend %cover-img;
+//}
 
 
-
-.scroller{
-    &-waper{
-    
-    }
-    &-content{
-        transition: all 0.04s;
-        -webkit-transition: all 0.04s;
-    }
-    @extend %cover-img;
-}
 
 
 @media print {
@@ -79,15 +75,6 @@ hr.hr{
 
 
 
-// X-Large devices (extra large desktops, less than 1800px)
-@include media-breakpoint(null, 1800px) {
-
-}
-
-// X-Large devices (extra large desktops, less than 1600px)
-@include media-breakpoint(null, 1600px) {
-
-}
 
 
 // X-Large devices (large desktops, less than 1400px)
