@@ -1,0 +1,24 @@
+
+
+
+
+// Default maps overrides
+
+
+$custom-colors: (
+    "orange": $orange
+);
+
+
+// Merge the maps
+$theme-colors: map-merge($theme-colors, $custom-colors);
+
+
+// Remove from map
+//$theme-colors: map-remove($theme-colors, "info", "light", "dark");
+
+
+// Bootstrap and its default maps
+@import "~bootstrap/scss/maps";
+
+
