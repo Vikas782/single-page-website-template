@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="33.333" height="32.182" viewBox="0 0 33.333 32.182">
+  <g id="Social_Network_Linkedin" data-name="Social Network/Linkedin" transform="translate(0)">
+    <rect id="Area" width="33" height="31.849" transform="translate(0)" fill="none"/>
+    <path id="Linkedin" d="M30,0a3.277,3.277,0,0,1,3.333,3.218V28.964A3.277,3.277,0,0,1,30,32.182H3.333A3.277,3.277,0,0,1,0,28.964V3.218A3.277,3.277,0,0,1,3.333,0ZM11.562,11.849H7.084v13.9h4.478Zm11.4-.346a4.739,4.739,0,0,0-4.236,2.244h-.061v-1.9h-4.3v13.9h4.474V18.871c0-1.812.358-3.568,2.688-3.568,2.3,0,2.327,2.073,2.327,3.685v6.758h4.474V18.124C28.333,14.382,27.5,11.5,22.962,11.5ZM9.277,4.827A2.565,2.565,0,0,0,6.667,7.344a2.612,2.612,0,0,0,5.22,0A2.567,2.567,0,0,0,9.277,4.827Z" transform="translate(0)" fill="#2a285f" fill-rule="evenodd"/>
+  </g>
+</svg>

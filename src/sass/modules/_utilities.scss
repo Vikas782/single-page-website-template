@@ -28,7 +28,7 @@ $utilities: map-merge(
                 (
                     values: map-merge(map-get(map-get($utilities, "font-family"), "values"),
                         (
-                            myriadpro: myriadpro
+                            myriadpro: $font-family-myriadpro,
                         ),
                     ),
                 ),

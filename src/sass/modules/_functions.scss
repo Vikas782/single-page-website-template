@@ -1,7 +1,7 @@
 
 
 //theme functions
-
+@use "sass:math";
 
 @function rem($value: 16) {
   $base: 16;

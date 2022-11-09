@@ -1,0 +1,8 @@
+<svg id="Button_50px:_round" data-name="Button 50px: round" xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80">
+  <circle id="Background" cx="40" cy="40" r="40" fill="#f5f9fc"/>
+  <g id="Man" transform="translate(24 24)">
+    <rect id="Area" width="32" height="32" fill="none"/>
+    <circle id="Background_1" data-name="Background 1" cx="4.8" cy="4.8" r="4.8" transform="translate(11.2 6.4)" fill="none"/>
+    <path id="Border" d="M2.4,23.2h0L0,23.2A12.828,12.828,0,0,1,8.5,11.14a6.4,6.4,0,1,1,8.6,0A12.831,12.831,0,0,1,25.6,23.2l-2.4,0a10.4,10.4,0,1,0-20.8,0ZM12.8,2.4a4,4,0,1,0,4,4A4,4,0,0,0,12.8,2.4Z" transform="translate(3.2 4)" fill="#2a4031"/>
+  </g>
+</svg>
