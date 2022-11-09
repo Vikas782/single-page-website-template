@@ -10,9 +10,8 @@
 @import 'modules/extend';
 
 body{
-    //font-family: $font-family-myriadpro;
-    font-family: 'Poppins', sans-serif;
-    @include scrollerY(#ddd,#333,0.3,8);
+    font-family: $font-family-Poppins;
+    //@include scrollerY(#ddd,#333,0.3,8);
 }
 a, a:hover {
     text-decoration: none;
@@ -47,269 +46,101 @@ hr.hr{
     height: 3px;
     margin: 0 auto;
 }
-//making classes
-.col-dark-blue{
-  color:#2A285F;
-}
-.back-col-dark-blue{
-    background-color:#2A285F;
-}
-.back-col-green{
-    background-color: #81C99A;
-}
-.fsize-20{
-    font-size:20px;
-}
-.fsize-18{
-    font-size:18px;
-}
-.fsize-16{
-    font-size:16px;
+img{
+    max-width: 100%;
 }
 
-
-//styling
-navbar{
-    padding: 36px 150px 36px 70px;
-}
-.navbar-expand-lg .navbar-nav .nav-link{
-    margin: 0px 50px 0px 0px;
-    font-family: 'Poppins', sans-serif;
-    font-weight:600;
-    font-size: 18px;
-    color:#2A285F;
-    padding: 0px;
-}
-nav form button[type="button"]{
-    width: 110px;
-    border-radius: 35px;
-    background-color: rgba(29,117,187);
-    font-size: 18px;
-    font-weight:500;
-    color: white;
-    padding: 0px;
-}
-nav form button[type="button"]:hover{
-    background-color: rgba(29,117,187);
-    color:white;
-}
-nav form img{
-    height: 13px;
-    width: 22px;
-}
-nav form input[type="search"]
-{
-    border-radius: 25px;
-}
-.searchBar {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin-right: 20px;
-}
-.searchQueryInput{
-    outline: none;
-    height: 40px;
-    border-radius: 1.625rem;
-    padding: 0 3.5rem 0 1.5rem;
-    font-size: 1rem;
-    font-family: 'Roboto', sans-serif;
-    border: 1px solid rgba(27,49,87);
-}
-.searchQuerySubmit{
-    width: 3.5rem;
-    height: 2.8rem;
-    margin-left: -3.5rem;
-    background: none;
-    border: none;
-    outline: none;
-}
-.searchQuerySubmit:hover {
-    cursor: pointer;
+.header{
+    height: 110px;
 }
 
-.menu-modal{
-    background-color: #ffffff;
-    position: absolute;
-    z-index:1;
-    padding: 35px;
-    width:700px;
-    margin-left: auto;
-    border-bottom-left-radius: 12px;
-    border-bottom-right-radius: 12px;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    }
-
-li{
-    .menu-modal &{
-      list-style: none;
-        color:#1C75BB;
-        margin-bottom: 10px;
-    }
-    & a{
-        margin-left: 10px;
-    }
-}
-
-.landing div.container {
-     .contain1{
-        background-color: #81C99A;
-        padding:300px;
-    }
-     .contain2{
-        background :url("../images/girl.svg") center center/cover;
-        padding: 300px;
-    }
-}
-.card {
-        .landing &{
-            border-radius: 15px;
-            top: 100px;
-            left: 250px;
-            padding: 0px;
-            font-family: 'Poppins', sans-serif
-        }
-    }
-
-.card-container{
-    padding: 60px 275px 60px 275px;
-}
-.landing2-image{
-    padding-left: 385px;
-}
-.card{
-    .landing2 &{
-        padding: 30px 110px 20px 30px;
-        top: 473px;
-        left: 153px;
-    }
-}
-.card{
-    .card-container2 &{
-        background-color: #F5FBFF;
-        border: none;
-    }
-    .card-container2 & .card-body{
-        h5 {
-            color: #2A285F;
-        }
-        h6{
-            color:#1C75BB;
-        }
-        & p{
-            color: #1C75BB;
-        }
-    }
-}
-
-p {
-    .title .container &{
-        font-size: 30px;
-        color: #EDA107;
-        padding: 55px;
-        font-family: 'Poppins', sans-serif;
-    }
-}
-
-.alert-dark{
-    .landing3 .container & {
-        width: 1160px;
-        height: auto;
-        background-color: #E7F1F8;
-        padding: 8px 30px;
-    }
-    .landing3 .container & button{
-        background-color: #2A285F;
-        border-radius: 12px;
-        font-size: 14px;
-        width: 100px;
-        height:auto;
-        padding: 2px;
-        color:white;
-    }
-}
-
-.card{
-    .landing4 &{
-        border-radius: 0px;
-    }
-    .landing4 & .card-body{
+.navbar{
+    padding: 17px 0;
+    & .container-fluid{
         padding: 0px;
     }
-}
-button{
-    .landing5 &{
-        width: 120px;
-        height:35px;
-        border-radius: 15px;
-        margin-top: -10px
+    &-brand{
+        width: 184px;
+        margin-bottom: 10px;
     }
-}
+    &-toggler{
 
-.searchQueryInput{
-    footer &{
-        width: 30rem;
-        height: 3.4rem;
-    }
-}
+        &-icon{
 
-footer{
-    position: relative;
-}
-footer::after{
-    content:"";
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    width: 142px;
-    margin-left: auto;
-    background-color:red;
-    position: absolute;
-}
-//
-    //.scroller{
-    //    &-waper{
-    //
-    //    }
-    //    &-content{
-    //        transition: all 0.04s;
-    //        -webkit-transition: all 0.04s;
-    //    }
-    //    @extend %cover-img;
-    //}
-
-
-    @media print {
-        .container {
-            width: auto;
         }
     }
-
-    // X-Large devices (large desktops, less than 1680px)
-    @include media-breakpoint-down(xxl) {
+    &-collapse{
+    }
+    &-nav{
+        .nav{
+            &-item{
+                margin-right: 34px;
+            }
+            &-link{
+                color:#2A285F;
+                font-weight: 600;
+                font-size:18px;
+            }
+        }
 
     }
+}
 
-    // Large devices (desktops, less than 1440px)
-    @include media-breakpoint-down(xl) {
+.landing{
+    &-img{
+        width: 100%;
+    }
+    &-wraper{
 
     }
-
-    // Medium devices (tablets, less than 1200px)
-    @include media-breakpoint-down(lg) {
+    &-card{
 
     }
-
-
-    // Small devices (landscape phones, less than 768px)
-    @include media-breakpoint-down(md) {
+    &-title{
 
     }
-
-    // X-Small devices (portrait phones, less than 576px)
-    @include media-breakpoint-down(sm) {
+    &-disc{
 
     }
+    &-button{
+
+    }
+}
+
+
+
+
+
+@media print {
+    .container {
+        width: auto;
+    }
+}
+
+// X-Large devices (large desktops, less than 1680px)
+@include media-breakpoint-down(xxl) {
+
+}
+
+// Large devices (desktops, less than 1440px)
+@include media-breakpoint-down(xl) {
+
+}
+
+// Medium devices (tablets, less than 1200px)
+@include media-breakpoint-down(lg) {
+
+}
+
+
+// Small devices (landscape phones, less than 768px)
+@include media-breakpoint-down(md) {
+
+}
+
+// X-Small devices (portrait phones, less than 576px)
+@include media-breakpoint-down(sm) {
+
+}
 
 

@@ -19,16 +19,18 @@ $utilities: map-merge(
                     values: map-merge(map-get(map-get($utilities, "font-weight"), "values"),
                         (
                             medium: $font-weight-medium,
-                            semibold: $font-weight-semibold,
+
                         ),
                     ),
                 ),
             ),
+
             "font-family": map-merge(map-get($utilities, "font-family"),
                 (
                     values: map-merge(map-get(map-get($utilities, "font-family"), "values"),
                         (
                             myriadpro: $font-family-myriadpro,
+                                Poppins: $font-family-Poppins
                         ),
                     ),
                 ),
