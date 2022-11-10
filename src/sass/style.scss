@@ -11,7 +11,7 @@
 
 body{
     font-family: $font-family-Poppins;
-    //@include scrollerY(#ddd,#333,0.3,8);
+    @include scrollerY(#ddd,#333,0.3,8);
 }
 a, a:hover {
     text-decoration: none;
@@ -55,20 +55,16 @@ img{
 }
 
 .navbar{
-    padding: 17px 0;
-    & .container-fluid{
-        padding: 0px;
-    }
     &-brand{
         width: 184px;
         margin-bottom: 10px;
     }
     &-toggler{
-
         &-icon{
 
         }
     }
+
     &-collapse{
     }
     &-nav{
@@ -77,7 +73,7 @@ img{
                 margin-right: 34px;
             }
             &-link{
-                color:#2A285F;
+                color:$darkBlue;
                 font-weight: 600;
                 font-size:18px;
             }
@@ -87,23 +83,57 @@ img{
 }
 
 .landing{
+    background-color: #81C99A;
+    padding:140px 0;
+    position: relative;
     &-img{
-        width: 100%;
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 60%;
+        height: 100%;
+        img{
+            width: 100%;
+            object-fit: cover;
+            height: 100%;
+        }
     }
     &-wraper{
-
+        position: relative;
+        max-width: 887px;
     }
     &-card{
-
+        background-color: #fff;
+        border-radius: 20px;
+        padding: 74px;
     }
     &-title{
-
+        font-size: 80px;
+        margin-bottom: 20px;
+        padding-bottom: 20px;
     }
     &-disc{
 
     }
     &-button{
 
+    }
+}
+
+.form{
+    &-search{
+        co:Rasdfsdfed;
+    }
+    &-control{
+        .form-search &{
+            border-radius: 40px;
+            border-color: #2A285F;
+            color: #2A285F;
+        }
+    }
+    &-button{
+
+        co:Rafsdfed;
     }
 }
 
