@@ -18,9 +18,27 @@ $container-max-widths-custom: (
         xxl: 1646px
 );
 
+$spacers-custom: (
+        64: 64px,
+        40: 40px,
+        116:116px
+);
 
-$custom-colors: (
-    "orange": $orange
+$display-font-sizes-custom: (
+        14:14px,
+        15:15px,
+        18:18px,
+        20:20px,
+        16:16px,
+        35:35px
+);
+
+$aspect-ratios-custom: (
+        "159x115": calc(115 / 159 * 100%)
+);
+
+$custom-colors:(
+    "darkBlue": $darkBlue
 );
 
 
@@ -29,6 +47,10 @@ $custom-colors: (
 $grid-breakpoints: map-merge($grid-breakpoints, $grid-breakpoints-custom);
 $container-max-widths: map-merge($container-max-widths, $container-max-widths-custom);
 $theme-colors: map-merge($theme-colors, $custom-colors);
+$spacers: map-merge($spacers, $spacers-custom);
+$display-font-sizes:map_merge($display-font-sizes,$display-font-sizes-custom);
+$aspect-ratios:map_merge($aspect-ratios,$aspect-ratios-custom);
+
 
 
 // Remove from map
