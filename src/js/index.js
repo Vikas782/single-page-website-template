@@ -16,33 +16,18 @@ import {
     Toast,
     Tooltip
 } from 'bootstrap';
-
-
 const bootstrap = window.bootstrap = require('bootstrap');
 
+
+let dropdownMenu=document.getElementsByClassName("dropdown-menu");
+let text = dropdownMenu.getAttribute("class");
+console.log(text)
 // init Swiper:
 // const swiper = new Swiper('.swiper', {
 // });
 
-let modal1=document.querySelector(".modal1");
-modal1.style.display = "none";
-let menuButton=document.querySelector(".navbar form button#menuButton ")
-menuButton.addEventListener("click",function (event) {
-    if(menuButton.dataset.bsTarget==0) {
-        modal1.style.display = "block";
-        menuButton.dataset.bsTarget = 1;
-    }
-    else{
-        modal1.style.display = "none";
-        menuButton.dataset.bsTarget = 0;
-    }
-})
 
-document.addEventListener("mouseup",function (e) {
-if(!modal.contains(e.target)){
-    modal1.style.display = "none";
-}
-})
+
 
 // trigger popover
 /*var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))

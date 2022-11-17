@@ -15,7 +15,7 @@
 <!---------header--------->
 <header class="header">
     <nav class="navbar navbar-expand-lg navbar-light">
-        <div class="container">
+        <div class="container position-relative">
             <a class="navbar-brand" href="#">
                 <img alt="" src="images/logo.svg">
             </a>
@@ -33,14 +33,17 @@
                         <a class="nav-link" href="#">Contact</a>
                     </li>
                 </ul>
-                <form class="form-search d-flex" role="search">
-                    <input aria-label="Search" class="form-control me-2" placeholder="Search" type="text">
+                <form class="d-flex" role="search">
+                    <input aria-label="Search" class="form-control rounded-pill text-darkBlue" type="" value="Zoeken">
+                    <button class="btn" type="submit"><img src="images/Search.svg"></button>
                 </form>
-                <button class="btn btn-primary text-white navbar-button">Menu</button>
+                <button class="btn btn-primary ms-3 display-18 fw-semibold">Menu<img src="images/menu.svg" class="ms-2"></button>
             </div>
         </div>
     </nav>
 </header>
+
+
 <section class="landing">
     <div class="landing-img sm">
         <img alt="" src="images/landing-bg.jpg">
@@ -122,12 +125,12 @@
             </div>
             <div class="asset-card bg-warning rounded-4 text-white">
                 <h3 class="asset-title">You’re in good company</h3>
-                <p class="asset-text text-primary">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                <p class="asset-text text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
                     eiusmod tempor
                     incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
                     ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
                     voluptate velit esse cillum dolore.</p>
-                <a class="asset-link fw-semibold text-white">Call to action</a>
+                <a class="asset-link fw-semibold text-white d-inline-block">Call to action</a>
             </div>
         </div>
     </div>
@@ -362,7 +365,7 @@
                         <div class="display-18 text-warning fw-medium">Scholengroep Fluxus</div>
                     </div>
                     <div class="align-self-end">
-                    <button class="btn bg-darkBlue display-20 fw-semibold text-white">Meer Info</button>
+                        <button class="btn bg-darkBlue display-20 fw-semibold text-white">Meer Info</button>
                     </div>
                 </div>
             </div>
@@ -371,8 +374,8 @@
 </section>
 
 <footer class="bg-primary w-100 h-100">
-<div class="w-50 bg-white h-100 backContain">
-</div>
+    <div class="w-50 bg-white h-100 backContain">
+    </div>
     <div class="container px-xxl-64">
         <div class="row">
             <div class="col-6 footer-left">
@@ -380,9 +383,10 @@
                 <h6 class="fw-semibold text-white ">Schrijf je in voor onze nieuwsbrief</h6>
                 <p class="text-white display-18 fw-normal">Blijf steeds op de hoogte van onze laatste nieuwe
                     opleidingen en trajecten. </p>
-                <form class="form-inline my-2 my-lg-0 d-flex">
-                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><img src="images/sendMail.svg"></button>
+                <form class="form-inline my-2 my-lg-0 d-inline-block position-relative">
+                    <input aria-label="Search" class="form-control mr-sm-2" placeholder="Search" type="text">
+                    <button class="btn my-2 my-sm-0 position-absolute" type="submit"><img src="images/sendMail.svg">
+                    </button>
                 </form>
 
             </div>
@@ -410,7 +414,8 @@
                             <img src="images/samenLEVEN.svg">
                         </div>
                     </div>
-                    <h3 class="text-darkBlue">Neem contact met ons op <a href="" class="ms-2"><img src="images/footerPath.svg"></a></h3>
+                    <h3 class="text-darkBlue">Neem contact met ons op <a class="ms-2" href=""><img
+                            src="images/footerPath.svg"></a></h3>
                     <div class="link display-14 fw-normal">
                         <a href="">Algemene voorwaarden</a>
                         <a href="">Cookie policy</a>

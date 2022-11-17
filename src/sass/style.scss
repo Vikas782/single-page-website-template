@@ -52,23 +52,42 @@ img {
   max-width: 100%;
 }
 
-.header {
+.header{
   height: 110px;
 }
-
 .navbar {
   &-brand {
     width: 184px;
     margin-bottom: 10px;
   }
-
-  &-toggler {
-    &-icon {
-
-    }
-  }
-
   &-collapse {
+    form{
+      width:308px;
+      height: 47px;
+      position: relative;
+      button{
+        position: absolute;
+        right: 0;
+        top:2px;
+      }
+    }
+    button{
+      padding: 10px 21px 12px 22px;
+      border-radius: 25px;
+    }
+    .caret-off::before {
+      display: none;
+    }
+    .caret-off::after {
+      display: none;
+    }
+    .dropdown-menu{
+     width: 941px !important;
+      height: 305px !important;
+      right:0px;
+      top:76px;
+    }
+
   }
 
   &-nav {
@@ -76,7 +95,6 @@ img {
       &-item {
         margin-right: 34px;
       }
-
       &-link {
         color: $darkBlue;
         font-weight: 600;
@@ -91,21 +109,18 @@ img {
   background-color: #81C99A;
   padding: 140px 0;
   position: relative;
-
   &-img {
     position: absolute;
     right: 0;
     top: 0;
     width: 60%;
     height: 100%;
-
     img {
       width: 100%;
       object-fit: cover;
       height: 100%;
     }
   }
-
   &-card {
     background-color: #fff;
     border-radius: 20px;
@@ -120,20 +135,16 @@ img {
       padding: 11px;
     }
   }
-
   &-content {
     padding-bottom: 18px;
   }
-
   &-title {
     font-size: 80px;
   }
-
   &-disc {
     font-size: 20px;
     margin-top: 34px;
   }
-
   &-button {
     border: 2px solid darkblue;
     font-size: 20px;
@@ -149,10 +160,6 @@ img {
       width: 100%;
       object-fit: cover;
     }
-
-    &-body {
-
-    }
   }
 }
 
@@ -160,18 +167,12 @@ img {
   &-search {
     co: Rasdfsdfed;
   }
-
   &-control {
     .form-search & {
       border-radius: 40px;
       border-color: #2A285F;
       color: #2A285F;
     }
-  }
-
-  &-button {
-
-    co: Rafsdfed;
   }
 }
 
@@ -208,7 +209,6 @@ img {
   &-image {
     padding-bottom: 135px;
   }
-
   &-card {
     max-width: 740px;
     padding: 48px 157px 46px 48px;
@@ -220,7 +220,7 @@ img {
         margin-bottom: 20px;
       }
       &-text {
-        margin-bottom: 21px;
+        margin-bottom:36px;
         font-size: 18px;
       }
       &-link {
@@ -270,14 +270,15 @@ img {
     &-wrapper{
           max-width: 1134px;
       }
-    &-primary {
-      th {
-      }
-      td {
-        padding: 16px;
-      }
-      tr{
-
+    &-primary{
+    th:first-child{
+     border-radius: 20px 0px 0px 20px;
+      padding-left: 50px;
+    }
+      td:last-child{
+        border-radius: 0px 20px 20px 0px;
+        padding-right: 50px;
+        text-align: right;
       }
       .btn {
         border-radius: 14px;
@@ -334,6 +335,9 @@ img {
           tbody:last-child{
             margin-top: 100px;
           }
+          td:last-child{
+            text-align: right;
+          }
           td{
             border:none;
           }
@@ -368,7 +372,6 @@ footer{
       margin-bottom: 31px;
     }
       form{
-        position: relative;
         input{
           width: 481px;
           height: 60px;
@@ -377,7 +380,12 @@ footer{
         }
         button{
           border:none;
-          position: absolute;
+          top:9px;
+          padding-left:22px;
+          right:0;
+        }
+        button:hover{
+          background-color: transparent;
         }
       }
   }

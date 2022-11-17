@@ -3004,28 +3004,14 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var bootstrap = window.bootstrap = __webpack_require__(/*! bootstrap */ "./node_modules/bootstrap/dist/js/bootstrap.esm.js"); // init Swiper:
+var bootstrap = window.bootstrap = __webpack_require__(/*! bootstrap */ "./node_modules/bootstrap/dist/js/bootstrap.esm.js");
+
+var dropdownMenu = document.getElementsByClassName("dropdown-menu");
+var text = dropdownMenu.getAttribute("class");
+console.log(text); // init Swiper:
 // const swiper = new Swiper('.swiper', {
 // });
-
-
-var modal1 = document.querySelector(".modal1");
-modal1.style.display = "none";
-var menuButton = document.querySelector(".navbar form button#menuButton ");
-menuButton.addEventListener("click", function (event) {
-  if (menuButton.dataset.bsTarget == 0) {
-    modal1.style.display = "block";
-    menuButton.dataset.bsTarget = 1;
-  } else {
-    modal1.style.display = "none";
-    menuButton.dataset.bsTarget = 0;
-  }
-});
-document.addEventListener("mouseup", function (e) {
-  if (!modal.contains(e.target)) {
-    modal1.style.display = "none";
-  }
-}); // trigger popover
+// trigger popover
 
 /*var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
 var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
