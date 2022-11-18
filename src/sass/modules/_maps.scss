@@ -21,7 +21,8 @@ $container-max-widths-custom: (
 $spacers-custom: (
         64: 64px,
         40: 40px,
-        116:116px
+        116:116px,
+        70:70px
 );
 
 $display-font-sizes-custom: (
@@ -34,7 +35,8 @@ $display-font-sizes-custom: (
 );
 
 $aspect-ratios-custom: (
-        "159x115": calc(115 / 159 * 100%)
+        "480x347": calc(347 / 480 * 100%),
+        "159x115":calc(115 / 159 * 100%)
 );
 
 $custom-colors:(

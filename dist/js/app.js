@@ -3468,7 +3468,7 @@ window.animate = {
           stagger: 0.2
       });
   },
-   zoomInSet(elem) {
+    zoomInSet(elem) {
       gsap.set(elem.querySelectorAll('.card'), {
           scale: 0,
           opacity:0,
@@ -3483,7 +3483,7 @@ window.animate = {
           stagger: 0.20,
           transformOrigin: "50% 50%",
       });
-       let animateEle = elem.querySelector('.animate-lottie');
+        let animateEle = elem.querySelector('.animate-lottie');
       if(animateEle){
           let dataId = animateEle.getAttribute("data-id");
           lottie[dataId].stop();
@@ -3510,7 +3510,7 @@ window.animate = {
       lottie[dataId].play();
   },
   illustrationDisplaySet(elem) {
-   },
+    },
   illustrationDisplay(elem) {
       let animateEle = elem.querySelectorAll('.animate-lottie');
       animateEle.forEach(function(item,index){

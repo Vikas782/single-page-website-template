@@ -37,7 +37,43 @@
                     <input aria-label="Search" class="form-control rounded-pill text-darkBlue" type="" value="Zoeken">
                     <button class="btn" type="submit"><img src="images/Search.svg"></button>
                 </form>
-                <button class="btn btn-primary ms-3 display-18 fw-semibold">Menu<img src="images/menu.svg" class="ms-2"></button>
+                <button class="btn btn-primary ms-3 display-18 fw-semibold" data-bs-toggle="collapse"
+                        href="#collapseExample">Menu<img class="ms-2" src="images/menu.svg">
+                </button>
+            </div>
+            <!-----------------------------modal--------------------------->
+            <div class="modal1 collapse position-absolute" id="collapseExample">
+                <div class="container">
+                    <div class="modal-container bg-white rounded-bottom">
+                        <div class="modal-body">
+                            <div class="row gx-70">
+                                <div class="col-4">
+                                    <h4 class="col-dark-blue">Fluxus Academie</h4>
+                                    <ul class="section-1 text-primary display-20 fw-normal p-0">
+                                        <li><img src="../dist/images/Path4.svg"><a href="">Onze mensen</a></li>
+                                        <li><img src="../dist/images/Path4.svg"><a href="">Onze visie</a></li>
+                                        <li><img src="../dist/images/Path4.svg"><a href="">Praktisch</a></li>
+                                        <li><img src="../dist/images/Path4.svg"><a href="">Blog</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-4">
+                                    <h4 class="col-dark-blue">Opleidingen</h4>
+                                    <ul class="section-2 text-primary display-20 fw-normal p-0">
+                                        <li><img src="../dist/images/Path4.svg"><a href="">Schoolontwikkeling</a></li>
+                                        <li><img src="../dist/images/Path4.svg"><a href="">Samen leren</a></li>
+                                        <li><img src="../dist/images/Path4.svg"><a href="">Samen leven</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-4">
+                                    <h4 class="col-dark-blue">Contact</h4>
+                                    <ul class="section-3 text-primary display-20 fw-normal p-0">
+                                        <li><img src="../dist/images/Path4.svg"><a href="">Contacteer ons</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </nav>
@@ -65,7 +101,7 @@
 </section>
 
 <section class="feature">
-    <div class="container px-xl-3 px-xl-5 px-xxl-64">
+    <div class="container px-xxl-3 px-xxl-5 px-xxl-64">
         <div class="row gx-40">
             <div class="col">
                 <div class="card bg-success rounded-bottom">
@@ -77,8 +113,7 @@
                         <p class="card-text text-white">Lorem ipsum dolor sit amet, consectetur adipisifwcing elit, sed
                             do eiusmod tempor incididunt ut labore et dolore roipi magna aliqua. Ut enim ad minim
                             veeniam, </p>
-                        <a class="card-link fw-semibold text-white" href="#">Meer weten<img class="ms-1"
-                                                                                            src="images/Path1.svg"></a>
+                        <a class="card-link fw-semibold text-white" href="#">Meer weten<img class="ms-1" src="images/Path1.svg"></a>
                     </div>
                 </div>
             </div>
@@ -92,8 +127,7 @@
                         <p class="card-text text-white">Lorem ipsum dolor sit amet, consectetur adipisifwcing elit, sed
                             do eiusmod tempor incididunt ut labore et dolore roipi magna aliqua. Ut enim ad minim
                             veeniam, </p>
-                        <a class="card-link fw-semibold text-white" href="#">Meer weten<img class="ms-1"
-                                                                                            src="images/Path1.svg"></a>
+                        <a class="card-link fw-semibold text-white" href="#">Meer weten<img class="ms-1" src="images/Path1.svg"></a>
                     </div>
                 </div>
             </div>
@@ -107,8 +141,7 @@
                         <p class="card-text text-white">Lorem ipsum dolor sit amet, consectetur adipisifwcing elit, sed
                             do eiusmod tempor incididunt ut labore et dolore roipi magna aliqua. Ut enim ad minim
                             veeniam, </p>
-                        <a class="card-link fw-semibold text-white" href="#">Meer weten<img class="ms-1"
-                                                                                            src="images/Path1.svg"></a>
+                        <a class="card-link fw-semibold text-white" href="#">Meer weten<img class="ms-1" src="images/Path1.svg"></a>
                     </div>
                 </div>
             </div>
@@ -138,7 +171,7 @@
 
 
 <section class="service-card">
-    <div class="container px-xxl-64">
+    <div class="container px-64">
         <div class="row gx-40">
             <div class="col">
                 <div class="card">
@@ -211,7 +244,7 @@
 
 
 <section class="perceptive">
-    <div class="container px-xxl-64">
+    <div class="container px-64">
         <div class="perceptive-title">
             <h3 class="text-warning">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</h3>
         </div>
@@ -255,7 +288,7 @@
 </section>
 
 <section class="profile">
-    <div class="container px-xxl-64">
+    <div class="container px-64">
         <div class="card-container">
             <h3 class="text-center text-darkBlue">Wat mensen zeggen over ons</h3>
             <div class="row gx-40">
@@ -376,7 +409,7 @@
 <footer class="bg-primary w-100 h-100">
     <div class="w-50 bg-white h-100 backContain">
     </div>
-    <div class="container px-xxl-64">
+    <div class="container px-64">
         <div class="row">
             <div class="col-6 footer-left">
                 <img src="images/footer-left.svg">
@@ -394,13 +427,13 @@
                 <img src="images/design2.svg">
                 <div class="text-end">
                     <div class="display-18 fw-normal text-darkBlue mb-4 social-heading">Volg ons via Social Media:</div>
-                    <div class="social d-flex justify-content-lg-end">
+                    <div class="social d-flex justify-content-end">
                         <img src="images/fb.svg">
                         <img src="images/likdin.svg">
                         <img src="images/twitter.svg">
                         <img src="images/insta.svg">
                     </div>
-                    <div class="ourPartners d-flex justify-content-lg-end">
+                    <div class="ourPartners d-flex justify-content-end">
                         <div class="partner-1 d-flex">
                             <img src="images/a%20green.svg">
                             <img src="images/SCHOOLontwikkeling.svg">

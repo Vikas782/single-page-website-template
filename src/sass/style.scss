@@ -87,9 +87,7 @@ img {
       right:0px;
       top:76px;
     }
-
   }
-
   &-nav {
     .nav {
       &-item {
@@ -104,6 +102,32 @@ img {
 
   }
 }
+  .modal1{
+    right: 0;
+    z-index: 1;
+    top: 93px;
+
+    .modal-container{
+          width:941px;
+          padding: 51px 50px;
+          h4{
+            margin-bottom: 18px;
+          }
+          box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            ul{
+                list-style: none;
+              li{
+                margin-bottom: 3px;
+              }
+              a{
+                margin-left: 10px;
+              }
+            }
+        }
+  }
+
+
+
 
 .landing {
   background-color: #81C99A;
@@ -164,9 +188,6 @@ img {
 }
 
 .form {
-  &-search {
-    co: Rasdfsdfed;
-  }
   &-control {
     .form-search & {
       border-radius: 40px;
@@ -200,8 +221,9 @@ img {
 }
 
 .asset {
+  padding: 100px 51px;
   .container {
-    padding: 100px 51px;
+
   }
   &-container {
     position: relative;
@@ -420,19 +442,50 @@ footer{
 }
 }
 
+
+
 @media print {
   .container {
     width: auto;
   }
 }
 
-// X-Large devices (large desktops, less than 1680px)
+// X-Large devices (large desktops, less than 1680px) (1440px-1679px)
 @include media-breakpoint-down(xxl) {
+  .modal1{
+    .modal-container{
+      padding: 20px 24px;
+    }
+  }
+  .feature{
+    .container{
 
+    }
+  }
+  .asset{
+    &-card{
+      padding: 30px 20px 30px 20px;
+    }
+    &-image{
+      img{
+        width: 75%;
+      }
+    }
+  }
+  .bunchBox{
+    .bunch-desc{
+      h3{
+        padding: 0px;
+      }
+      .bunch-deal{
+        margin-top: 0px;
+      }
+    }
+  }
 }
 
-// Large devices (desktops, less than 1440px)
-@include media-breakpoint-down(xl) {
+// Large devices (desktops, less than 1440px)         (1200px-1439px)
+@include media-breakpoint-down(xl){
 
 }
 
