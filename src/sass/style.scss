@@ -87,6 +87,11 @@ img {
       right:0px;
       top:76px;
     }
+    .menu-sm{
+      .overflow-auto{
+        height: 300px;
+      }
+    }
   }
   &-nav {
     .nav {
@@ -656,13 +661,11 @@ footer{
       height: 43px;
     }
   }
-
   .modal1{
     .modal-container{
       max-width: 334px;
     }
   }
-
   .perceptive{
     .table-primary{
       th:first-child{
